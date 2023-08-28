@@ -17,11 +17,15 @@ public class Control {
 	}
 	
 	public void setCanal(int canal){
-		tv.canal = canal;
-	}
+		if(tv.estado == true && canal >= 1 && canal <= 120){
+			tv.canal = canal;
+		}
+	}	
 	
-		public void setVolumen(int volumen){
-		tv.volumen = volumen;
+	public void setVolumen(int volumen){
+		if(tv.estado == true && volumen >= 0 && volumen <= 7) {
+			tv.volumen = volumen;
+		}
 	}
 		
 	public void canalUp() {
