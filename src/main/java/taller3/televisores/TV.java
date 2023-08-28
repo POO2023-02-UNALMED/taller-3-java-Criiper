@@ -23,8 +23,12 @@ public class TV {
 		estado = false;
 	}
 	
-	public void setNumTV() {
-		numTV = numTV++;
+	public void setNumTV(int numerotv) {
+		numTV = numerotv;
+	}
+	
+	public int getNumTV() {
+		return numTV;
 	}
 	
 	public void canalUp() {
