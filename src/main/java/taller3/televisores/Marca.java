@@ -6,11 +6,11 @@ public class Marca {
 	Marca(String nombre){
 		this.nombre = nombre;	}
 
-	public void setMarca(){
+	public void setNombre(){
 		return;
 	}
 	
-	public String getMarca() {
+	public String getNombre() {
 		return nombre;
 	}
 }
