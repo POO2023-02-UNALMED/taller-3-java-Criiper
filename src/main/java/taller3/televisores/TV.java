@@ -23,11 +23,11 @@ public class TV {
 		estado = false;
 	}
 	
-	public void setNumTV(int numerotv) {
+	public static void setNumTV(int numerotv) {
 		numTV = numerotv;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	
