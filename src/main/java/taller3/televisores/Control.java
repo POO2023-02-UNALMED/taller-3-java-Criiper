@@ -26,26 +26,26 @@ public class Control {
 		
 	public void canalUp() {
 		if (tv.canal > 0 && tv.canal < 120 && tv.estado == true) {
-			tv.canal = tv.canal++;
+			tv.canal++;
 		}
 	}
 	
 	
 	public void canalDown() {
 		if (tv.canal > 1 && tv.canal < 121 && tv.estado == true) {
-			tv.canal = tv.canal--;
+			tv.canal--;
 		}
 	}
 	
 	public void volumenUp() {
 		if (tv.volumen >= 0 && tv.volumen < 7 && tv.estado == true) {
-			tv.volumen = tv.volumen++;
+			tv.volumen++;
 		}
 	}
 	
 	public void volumenDown() {
 		if (tv.volumen > 0 && tv.volumen < 8 && tv.estado == true) {
-			tv.volumen = tv.volumen--;
+			tv.volumen--;
 		}
 	}
 	
