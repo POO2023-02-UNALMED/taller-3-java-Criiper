@@ -55,9 +55,8 @@ public class TV {
 		return estado;
 	}
 	
-	public void setMarca(){
-		
-		return;
+	public void setMarca(Marca marca){
+		this.marca = marca;
 	}
 	
 	public Marca getMarca(){
@@ -89,8 +88,8 @@ public class TV {
 		return volumen;
 	}
 	
-	public void setControl(){
-		return;
+	public void setControl(Control control){
+		this.control = control;
 	}
 	
 	public Control getControl(){
